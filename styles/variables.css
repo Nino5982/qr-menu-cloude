@@ -1,0 +1,62 @@
+:root {
+    /* --- 1. COLORS (ფერის როლები) --- */
+    --bg-color: #F8FAFC;
+    --card-bg: #FFFFFFE5;
+    --text-primary: #131313;
+    --text-secondary: #737373;
+    --text-accent: #6471FF;
+    --accent-color: #4D5BFF;
+    --accent-hover: #5653E9;
+    --border-color: #E5E5E5;
+    --text-main: #FFFFFF;
+    --footer-text-color: #ADAAAA;
+    --dark-light: #323030e8;
+    --accent-text: #4D5BFF;
+    --surface-muted: #EEF0FF;
+    ;
+    /* --- 2. TYPOGRAPHY (შრიფტები) --- */
+    /* --font-main: 'Inter', sans-serif; */
+
+    /* --- 3. BORDER RADIUS */
+    --radius-sm: 22px;
+    --radius-md: 24px;
+    --radius-lg: 40px;
+    /* border */
+
+
+    /* --- 4. SHADOWS --- */
+    --shadow-card: 0px 1px 2px 0px #00000005;
+}
+
+/* --- DARK THEME --- */
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --card-bg: #181818E5;
+    --text-accent: #9FA7FF;
+    --text-primary: #FFFFFF;
+    --text-secondary: #ADAAAA;
+    --border-color: #242424;
+    --shadow-card: 0px 1px 2px 0px #0000000D;
+    --footer-text-color: #ADAAAACC;
+    --dark-light: #9e9e9e57;
+    --accent-text: #9FA7FF;
+    --surface-muted: #242424;
+    ;
+}
+
+
+
+/* სტანდარტები ფონტის ზომებში
+8px (ძალიან პატარა ტექსტები, ტეგები, ბეჯები) 
+12px (პატარა აღწერები, დამხმარე ტექსტები) 
+
+ 14px (სტანდარტული მეორადი ტექსტი, ფიქსირებული აღწერები) 
+ 
+ 16px (მთავარი ტექსტის ზომა — p, კარგად წაკითხვადი ბოდი) 
+ 
+ 18px (ოდნავ დიდღაკიანი ტექსტი ან პატარა სათაური) 
+ 20px   (საშუალო ზომის სათაური) 
+24px (<h3> სათაურები) 
+30px (<h2> მთავარი სექციის სათაურები) 
+36px (<h1> დიდი სათაურები)
+*/

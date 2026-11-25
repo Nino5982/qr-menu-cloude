@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>მენიუ | კულინარი</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/menu.css" />
+  </head>
+  <body class="menu-page" data-theme="light">
+    <script src="../script/theme-init.js"></script>
+
+    <header class="menu-header">
+      <div class="menu-brand">
+        <img id="brandLogo" class="menu-brand__logo" alt="" hidden />
+        <div class="menu-brand__text">
+          <h1 id="brandName">მენიუ</h1>
+          <p id="brandSub" class="menu-brand__sub" data-lang="menu_title" hidden>
+            მენიუ
+          </p>
+        </div>
+      </div>
+      <a class="menu-back" href="../index.html" data-lang="back_home">მთავარი</a>
+    </header>
+
+    <main class="menu-main">
+      <div id="menuNotice" aria-live="polite"></div>
+      <div id="menuStatus" role="status" aria-live="polite"></div>
+      <div id="menuContent"></div>
+    </main>
+
+    <div id="site-footer"></div>
+    <script type="module" src="../script/footer.js"></script>
+    <script type="module" src="../script/menu.js"></script>
+  </body>
+</html>
